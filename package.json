@@ -1,0 +1,62 @@
+{
+  "name": "angular-babel-seed",
+  "version": "0.0.0",
+  "description": "Angular starter with plain ES6",
+  "scripts": {
+    "build": "webpack --config webpack.prod.js",
+    "start": "webpack-dev-server --open --config webpack.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jotatoledo/angular-babel-seed.git"
+  },
+  "keywords": [
+    "angular",
+    "es2016",
+    "es6",
+    "babel",
+    "webpack"
+  ],
+  "author": {
+    "name": "José Toledo Navarro",
+    "email": "jotatoledon@gmail.com",
+    "url": "https://github.com/jotatoledo"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@angular/animations": "^7.2.0",
+    "@angular/cdk": "^7.3.2",
+    "@angular/common": "^7.2.0",
+    "@angular/compiler": "^7.2.0",
+    "@angular/core": "^7.2.0",
+    "@angular/forms": "^7.2.5",
+    "@angular/material": "^7.3.2",
+    "@angular/platform-browser": "^7.2.0",
+    "@angular/platform-browser-dynamic": "^7.2.0",
+    "@angular/router": "^7.2.0",
+    "@covalent/core": "^2.0.1",
+    "core-js": "^2.6.5",
+    "pug": "^2.0.3",
+    "rxjs": "^6.4.0",
+    "webpack-cli": "^3.2.3",
+    "zone.js": "^0.8.29"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/plugin-proposal-class-properties": "^7.3.3",
+    "@babel/plugin-proposal-decorators": "^7.3.0",
+    "@babel/preset-env": "^7.3.1",
+    "babel-loader": "^8.0.5",
+    "copy-webpack-plugin": "^4.6.0",
+    "css-loader": "^2.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.11.0",
+    "pug-loader": "^2.4.0",
+    "raw-loader": "^1.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.5",
+    "webpack-dev-server": "^3.1.14",
+    "webpack-merge": "^4.2.1"
+  }
+}
